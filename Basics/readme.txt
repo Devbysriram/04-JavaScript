@@ -1,0 +1,1 @@
+This repo having all the basics of JS
