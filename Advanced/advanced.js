@@ -24,26 +24,26 @@
 
 // callbacks are just a functions that passing other function as a parameters
 
-let calculateAge = (birthyear) => {
-    return 2024 - birthyear
-}
+// let calculateAge = (birthyear) => {
+//     return 2024 - birthyear
+// }
 
-let printAge = (birthyear, callback) => {
-    return console.log(callback(birthyear));
-}
+// let printAge = (birthyear, callback) => {
+//     return console.log(callback(birthyear));
+// }
 
-printAge(1995, calculateAge) // here passing calculate age function as a paramenter
+// printAge(1995, calculateAge) // here passing calculate age function as a paramenter
 
 
-let findAvg = (a, b, c) => {
-    return (a + b + c) / 3
-}
+// let findAvg = (a, b, c) => {
+//     return (a + b + c) / 3
+// }
 
-let printAvg = (a, b, c, findAvg) => {
-    return console.log(findAvg(a, b, c));
-}
+// let printAvg = (a, b, c, findAvg) => {
+//     return console.log(findAvg(a, b, c));
+// }
 
-printAvg(5, 5, 5, findAvg)   // here passing calculate average function as a paramenter
+// printAvg(5, 5, 5, findAvg)   // here passing calculate average function as a paramenter
 
 // following code will be example for callback hell
 
@@ -122,3 +122,14 @@ printAvg(5, 5, 5, findAvg)   // here passing calculate average function as a par
 // }))
 
 
+// ================================================================
+
+// Async await
+
+// let fetchData =async () =>{
+//     let data = await fetch("https://jsonplaceholder.typicode.com/users")
+//     let jsonData = await data.json();
+//     return console.log(jsonData);
+// }
+
+// fetchData()
